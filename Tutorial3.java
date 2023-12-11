@@ -41,18 +41,18 @@ class Tutorial3{
 
     // Task 4: Write a Java program to display multiplication of a number from 1 to 10. (ask user to input the number). 
 
-    // public static void main(String[] args) {
-    //     Scanner in = new Scanner(System.in);
-    //     System.out.println("Enter a number: ");
-    //     int num = in.nextInt();
-    //     int pro;
-    //     System.out.println("Multiplication of " +num+ " from 1 to 10:");
-    //     for (int i=1; i <= 10; i++){
-    //         pro = num*i;
-    //         System.out.println(pro);
-    //     }
-    //     in.close();
-    // }
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int num = in.nextInt();
+        int pro;
+        System.out.println("Multiplication of " +num+ " from 1 to 10:");
+        for (int i=1; i <= 10; i++){
+            pro = num*i;
+            System.out.println(pro);
+        }
+        in.close();
+    }
 
     // Task 5: Write a program to print the following pattern in Java.
     // *
