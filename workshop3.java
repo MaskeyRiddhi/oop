@@ -39,19 +39,21 @@ public class workshop3 {
 //    }
 
     // 4. Write a Java program that demonstrates the use of nested loops to print a pattern, such as a pyramid of stars.
-    //   public static void main(String[] args) {
-    //     int row = 5, k=0;
-    //     for(int i =1; i<= row; ++i, k=0){
-    //         for (int j =1; j<=row-i; ++j){
-    //             System.out.print(" ");
-    //         }
-    //         while( k != 2*i-1){
-    //             System.out.print("* ");
-    //             ++k;
-    //     }
-    //     System.out.println();
-    // }   
-    // }
+
+public static void main(String[] args) {
+    int row = 5, k = 0;
+    for (int i = 1; i <= row; ++i, k = 0) {
+        for (int j = 1; j <= row - i; ++j) {
+            System.out.print("  ");
+        }
+        while (k != 2 * i - 1) {
+            System.out.print("* ");
+            ++k;
+        }
+        System.out.println(); 
+    }
+}
+}
     
     // 5. Develop a Java program that declares and initializes an array of integers. Print the elements of the array in reverse order.
     //     public static void main(String[] args) {
@@ -159,15 +161,15 @@ public class workshop3 {
     // }
 
 // 12.	Create a Java program that utilizes the enhanced for loop to concatenate all strings in an array and print the result.
-    public static void main(String[] args) {
-        String [] arr = {"Hello, ","This ","is ","OOP ","Module."};
-        String result= "";
-        for (String str : arr){
-            result += str;
-        }
-        System.out.println(result);
-    }
-    }
+    // public static void main(String[] args) {
+    //     String [] arr = {"Hello, ","This ","is ","OOP ","Module."};
+    //     String result= "";
+    //     for (String str : arr){
+    //         result += str;
+    //     }
+    //     System.out.println(result);
+    // }
+    // }
 
 
 
